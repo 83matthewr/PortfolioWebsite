@@ -1,0 +1,115 @@
+html, body, #page {
+  width: 100%;
+  margin: 0px;
+}
+
+#cover {
+  background-color: grey;
+  height: 800px;
+}
+
+#info {
+  height: 750px;
+}
+
+#info img {
+  background-color: lightblue;
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 200px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#text {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 220px;
+  color: white;
+}
+
+#text h1, #text h2 {
+  font-size: 5vw;
+}
+
+#about {
+  background-color: grey;
+  padding: 0px;
+}
+
+#about button {
+  width: 100%;
+  padding: 15px 0px 10px;
+  background-color: grey;
+  border: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: background-color 1s;
+  outline: none;
+}
+
+#about button:hover {
+  background-color: white;
+  color: black;
+}
+
+#resume {
+  background-color: grey;
+  padding: 0px;
+}
+
+#resume button {
+  width: 100%;
+  padding: 15px 0px 10px;
+  background-color: grey;
+  border: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: background-color 1s;
+  outline: none;
+}
+
+#resume button:hover {
+  background-color: white;
+  color: black;
+}
+
+#work {
+  background-color: grey;
+  padding: 0px;
+}
+
+#work button {
+  width: 100%;
+  padding: 15px 0px 10px;
+  background-color: grey;
+  border: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: background-color 1s;
+  outline: none;
+}
+
+#work button:hover {
+  background-color: white;
+  color: black;
+}
+
+#first {
+  margin: 50px auto 50px;
+  height: 800px;
+}
+
+#sec {
+  margin: 50px auto 50px;
+  height: 800px;
+}
+
+#third {
+  margin: 50px auto 50px;
+  height: 800px;
+}
