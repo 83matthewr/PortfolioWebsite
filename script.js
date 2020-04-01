@@ -1,19 +1,19 @@
 $( document ).ready(function() {
-  $("#sec").hide();
-  $("#third").hide();
-  $("#about-b").on( "click", function() {
-    $("#sec").fadeOut();
-    $("#third").fadeOut();
-    $("#first").fadeIn();
+  $("#about").hide();
+  $("#projects").hide();
+  $("#about-btn").on( "click", function() {
+    $("#resume").fadeOut();
+    $("#projects").fadeOut();
+    $("#about").fadeIn();
   });
-  $("#resume-b").on( "click", function() {
-    $("#first").fadeOut();
-    $("#third").fadeOut();
-    $("#sec").fadeIn();
+  $("#resume-btn").on( "click", function() {
+    $("#about").fadeOut();
+    $("#projects").fadeOut();
+    $("#resume").fadeIn();
   });
-  $("#work-b").on( "click", function() {
-    $("#first").fadeOut();
-    $("#sec").fadeOut();
-    $("#third").fadeIn();
+  $("#work-btn").on( "click", function() {
+    $("#about").fadeOut();
+    $("#resume").fadeOut();
+    $("#projects").fadeIn();
   });
 });
