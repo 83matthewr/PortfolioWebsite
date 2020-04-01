@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   $("#about").hide();
-  $("#projects").hide();
+  $("#resume").hide();
   $("#about-btn").on( "click", function() {
     $("#resume").fadeOut();
     $("#projects").fadeOut();
